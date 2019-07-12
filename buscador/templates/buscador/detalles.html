@@ -1,0 +1,26 @@
+{% extends 'buscador/base.html' %}
+{% block content %}
+{% if datos %}
+<table class="table table-striped mt-3" id="tblMain">
+    <thead>
+        <tr>
+            <th scope="col">Sujeto</th>
+            <th scope="col">Predicado</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in datos %}
+        <tr>
+            <td><a href="{% url 'detalles' item.1 %}">{{ item.1 }}</a></td>
+            <td style="word-wrap: break-word;min-width: 160px;max-width: 160px;"><a
+                    href="{% url 'detalles' item.3 %}">{{ item.3 }}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% else %}
+<p class="text-danger">No hay datos.</p>
+{% endif %}
+
+{% endblock %}

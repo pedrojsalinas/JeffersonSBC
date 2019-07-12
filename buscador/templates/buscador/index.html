@@ -1,0 +1,57 @@
+{% extends 'buscador/base.html' %}
+{% block content %}
+<form method="post">
+    {% csrf_token %}
+    <div class="form-group">
+        {{ formulario.as_p }}
+    </div>
+    <div class="col text-center">
+        <button type="submit" name="button" id="boton" class="btn btn-outline-primary">Buscar</button>
+    </div>
+</form>
+{% if datos %}
+<table class="table table-striped mt-3" id="tblMain">
+    <thead>
+        <tr>
+            <th scope="col">Sujeto</th>
+            <th scope="col">Predicado</th>
+            <th scope="col">Objeto</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for item in datos %}
+        <tr>
+            <td><a href="{% url 'detalles' item.0 %}">{{ item.0 }}</a></td>
+            <td>{{ item.2 }}</td>
+            <td style="word-wrap: break-word;min-width: 160px;max-width: 160px;"><a
+                    href="{% url 'detalles' item.3 %}">{{ item.3 }}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</div>
+<script type="text/javascript">
+    var tbl = document.getElementById("tblMain");
+    if (tbl != null) {
+        for (var i = 0; i < tbl.rows.length; i++) {
+            for (var j = 0; j < tbl.rows[i].cells.length; j++)
+                tbl.rows[i].cells[j].onclick = function () {
+                    getval(this);
+                };
+        }
+    }
+
+    function getval(cel) {
+        var string = cel.innerHTML;
+        if (string.indexOf("http") == 0) {
+            console.log(cel.innerHTML);
+            input.setAttribute("value", cel.innerHTML);
+        }
+    }
+</script>
+{% else %}
+    <p class="text-danger">No hay resultados.</p>
+{% endif %}
+
+{% endblock %}
