@@ -5,6 +5,7 @@ import spacy
 import es_core_news_sm
 import rdflib
 from rdflib.serializer import Serializer
+from SPARQLWrapper import SPARQLWrapper, JSON
 from collections import OrderedDict
 import itertools
 
@@ -21,7 +22,7 @@ class InicioView(TemplateView):
         if formulario.is_valid():
             text = formulario.cleaned_data['query']
             token = Semantico()
-            datos = token.limpiezaDatos(text)
+            datos = token.consultaVirutoso(text)
             args = {"datos": datos, "formulario": self.formulario}
         return render(request, self.plantilla, args)
 
@@ -38,8 +39,39 @@ class Detalles(TemplateView):
         return render(request, self.plantilla,args)
 
 class Semantico():
+    # sparql endopoint
+    sbcEndpoint = SPARQLWrapper("http://localhost:8890/sparql/")
+    nlp = es_core_news_sm.load()
     g = rdflib.Graph()
     g.parse("datos.rdf")
+
+    def consultaVirutoso(self, texto):
+        text = self.nlp(texto)
+        tokenized_sentences = [sentence.text for sentence in text.sents]
+        datos = []
+        for sentence in tokenized_sentences:
+            for entity in self.nlp(sentence).ents:
+                consulta = """
+                SELECT ?s ?p ?o
+                    WHERE 
+                        { 
+                            ?s ?p ?o .FILTER regex(str(?s), "%s") .
+                        }
+                        """ % (entity.text)
+                self.sbcEndpoint.setQuery(consulta)
+                self.sbcEndpoint.setReturnFormat(JSON)
+                results = self.sbcEndpoint.query().convert()
+                for result in results["results"]["bindings"]:
+                    lista = []
+                    listaS = result["s"]["value"]
+                    listaP = result["p"]["value"]
+                    listaO = result["o"]["value"]
+                    lista.append(listaS)
+                    lista.append(listaP)
+                    lista.append(listaO)
+                    datos.append(lista)
+        return datos
+    
     def obtenerRecursos(self, uri):
         datos = []
         consulta = """SELECT ?p ?o

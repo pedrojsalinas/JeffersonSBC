@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:foaf="http://xmlns.com/foaf/0.1/"
          xmlns:ns0="http://data.utpl.edu.ec/casoav/resources/"
          xmlns:ns1="http://data.utpl.edu.ec/casoav/schema/">
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/L1/JG">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/L1/JG"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/L1">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/JG">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Jorge_Glass"/>
     <ns0:hasPersonaDetenida rdf:resource="http://data.utpl.edu.ec/casoav/resources/Detenido"/>
     <ns0:hasLugarDetencion rdf:resource="http://data.utpl.edu.ec/casoav/resources/Guayaquil"/>
@@ -14,18 +24,27 @@
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/ExVicePresidente"/>
     <ns1:hasNombreProfesion rdf:resource="http://data.utpl.edu.ec/casoav/schema/Telecomunicaciones"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
     <ns1:hasMontoRecibido rdf:resource="http://data.utpl.edu.ec/casoav/schema/2M"/>
     <ns1:hasMontoRecibido rdf:resource="http://data.utpl.edu.ec/casoav/schema/1.5M"/>
     <ns1:hasMontoRecibido rdf:resource="http://data.utpl.edu.ec/casoav/schema/1M"/>
     <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V7"/>
     <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V8"/>
-    <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V9"/>
     <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V10"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/L2/MD">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/L2/MD"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Maria_de_los_Angeles_Duarte">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/L2">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/MD">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Maria_de_los_Angeles_Duarte"/>
     <ns0:hasPersonaDetenida rdf:resource="http://data.utpl.edu.ec/casoav/resources/Detenido"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Maria_de_los_Angeles"/>
@@ -34,16 +53,25 @@
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/TransporteObrasPúblicasEcuador"/>
     <ns1:hasNombreProfesion rdf:resource="http://data.utpl.edu.ec/casoav/schema/AdministracionEmpresas"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
     <ns1:hasMontoRecibido rdf:resource="http://data.utpl.edu.ec/casoav/schema/1M"/>
     <ns1:hasMontoRecibido rdf:resource="http://data.utpl.edu.ec/casoav/schema/300"/>
     <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V1"/>
     <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V3"/>
-    <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V4"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/L3/WS">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/L3/WS"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Walter_Solis">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/L3">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/WS">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Walter_Solis"/>
     <ns0:hasPersonaDetenida rdf:resource="http://data.utpl.edu.ec/casoav/resources/Detenido"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Walter"/>
@@ -51,17 +79,27 @@
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/ExSecretarioNacionalAgua"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
     <ns1:hasMontoRecibido rdf:resource="http://data.utpl.edu.ec/casoav/schema/1M"/>
     <ns1:hasMontoRecibido rdf:resource="http://data.utpl.edu.ec/casoav/schema/500"/>
+    <ns1:hasMontoRecibido rdf:resource="http://data.utpl.edu.ec/casoav/schema/400"/>
     <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V1"/>
     <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V2"/>
-    <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V5"/>
     <ns0:hasMontoEntregadoPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/V6"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/C1/OM">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/C1/OM"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Olga_Muentes">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/C1">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/OM">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Olga_Muentes"/>
     <ns0:hasPersonaDetenida rdf:resource="http://data.utpl.edu.ec/casoav/resources/Detenido"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Olga"/>
@@ -69,11 +107,21 @@
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/Asesora_"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/C2/ME">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/C2/ME"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Maria_Agusta_Enriquez">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/C2">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/ME">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Maria_Agusta_Enriquez"/>
     <ns0:hasPersonaDetenida rdf:resource="http://data.utpl.edu.ec/casoav/resources/Detenido"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Maria_Augusta"/>
@@ -81,30 +129,39 @@
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/AsistentePrecidencia_"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/C3/PM">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/C3/PM"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Maria_Pamela_Martinez_Loaiza">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/C3">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/PM">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Maria_Pamela_Martinez_Loaiza"/>
     <ns0:hasPersonaDetenida rdf:resource="http://data.utpl.edu.ec/casoav/resources/detenido"/>
-    <ns0:hasLugarDetencion>
-      <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/Guayaquil_">
-        <ns0:hasNombreProvincia rdf:resource="http://data.utpl.edu.ec/casoav/resources/Guayas"/>
-        <ns0:hasNombreCanton rdf:resource="http://data.utpl.edu.ec/casoav/resources/Guayaquil"/>
-      </rdf:Description>
-    </ns0:hasLugarDetencion>
-
+    <ns0:hasLugarDetencion rdf:resource="http://data.utpl.edu.ec/casoav/resources/Guayaquil"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Maria_Pamela"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Martinez_Loiza"/>
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/Asesora"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/XX1">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/XX1"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Rafael_Correa_Delgado">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/XX1">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Rafael_Correa_Delgado"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Rafael"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Correa"/>
@@ -112,10 +169,14 @@
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/ExPresidente_"/>
     <ns1:hasNombreProfesion rdf:resource="http://data.utpl.edu.ec/casoav/schema/Economista"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/XX2">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/XX2"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Cristina_P">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/XX2">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Cristina_P"/>
     <ns0:hasPersonaDetenida rdf:resource="http://data.utpl.edu.ec/casoav/resources/Detenido"/>
     <ns0:hasLugarDetencion rdf:resource="http://data.utpl.edu.ec/casoav/resources/Quito"/>
@@ -123,10 +184,14 @@
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/P"/>
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/XX3">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/XX3"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Laura_Teran_Betancourt">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/XX3">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Laura_Teran_Betancourt"/>
     <ns0:hasPersonaDetenida rdf:resource="http://data.utpl.edu.ec/casoav/resources/Detenido"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Laura"/>
@@ -134,10 +199,14 @@
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/Asesora"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/XX4">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/XX4"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Alexis_Mera">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/XX4">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Alexis_Mera"/>
     <ns0:hasPersonaDetenida rdf:resource="http://data.utpl.edu.ec/casoav/resources/Detenido"/>
     <ns0:hasLugarDetencion rdf:resource="http://data.utpl.edu.ec/casoav/resources/Guayaquil"/>
@@ -146,21 +215,29 @@
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/SecretarioJuridicoPresindecia"/>
     <ns1:hasNombreProfesion rdf:resource="http://data.utpl.edu.ec/casoav/schema/Abogado"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/XX5">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/XX5"/>
-    <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Viviaa_Bonilla"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Viviana_Bonilla">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/XX5">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
+    <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Viviana_Bonilla"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Viviana"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Bonilla"/>
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/Asambleista"/>
     <ns1:hasNombreProfesion rdf:resource="http://data.utpl.edu.ec/casoav/schema/Abogada"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/XX6">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/XX6"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Galo_Mora">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/XX6">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Galo_Mora"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Galo"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Mora"/>
@@ -168,293 +245,285 @@
     <ns1:hasCargo rdf:resource="http://data.utpl.edu.ec/casoav/schema/DirectorDiscursos"/>
     <ns1:hasNombreProfesion rdf:resource="http://data.utpl.edu.ec/casoav/schema/Antropologia"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/XX7">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/XX7"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Pedro_Espinoza">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/XX7">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Pedro_Espinoza"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Pedro"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Espinosza"/>
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V1">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Alberto_Hildalgo">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V1"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Alberto_Hildalgo"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Alberto"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Hildalgo"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/HIDALGO_&amp;_HIDALGO"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$2,000,000,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/HIDALGO_&amp;_HIDALGO"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/María_Duarte;_Walter_Solís"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V2">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Manuel_Fontana">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V2"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Manuel_Fontana"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Manuel"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Fontana"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/FOPECA"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$240,000,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/FOPECA"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Walter_Solis"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V3">
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/NA">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V3"/>
-    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/NA"/>
-    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
-    <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/MIDISA_S.A"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$980,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/MIDISA_S.A"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Maria_Duarte"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V12"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V15"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V17"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V4">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Edgar_Salas">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V4"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Edgar_Salas"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Edgar"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Salas"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/EDGAR_SALAS"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$300,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/CONSERMIN"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Maria_Duarte"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V5">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Pedro_Verduga">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V5"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Pedro_Verduga"/>
-    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/"/>
+    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Pedro"/>
+    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Verduga"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/PEDRO_VERDUGA_CONSTRUCCIONES_S.A._PREVERCONSA"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$100,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/PEDRO_VERDUGA_CONSTRUCCIONES_S.A._PREVERCONSA"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Walter_Solís"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V6">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Luis_Valero">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V6"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Luis_Valero"/>
-    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/"/>
+    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Luis"/>
+    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Valero"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/CONSTRUDIPRO"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$349,879,040"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/CONSTRUDIPRO"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Walter_Solís"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V7">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Geraldo_De_Souza">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V7"/>
-    <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Geraldo_de_Souza"/>
-    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Geraldo_"/>
-    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/de_Souza"/>
+    <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Geraldo_De_Souza"/>
+    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Geraldo"/>
+    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/De_Souza"/>
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/ODEBRECHT"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Brasil"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$1,350,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Brasil"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/ODEBRECHT"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V8">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Mateo_Choi">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V8"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Mateo_Choi"/>
+    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Mateo"/>
+    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/CHoi"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/SK_ENGGEENERING"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Korea"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$1,500,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Korea"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/SK_ENGGEENERING"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V9">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Jose_Alvear">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V9"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Jose_Alvear"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Jose"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Alvear"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/CWNE(Jose_Alvear)"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/CWNE(Jose_Alvear)"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V10">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Bolivar_Sanchez">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V10"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Bolivar_Sanchez"/>
-    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Bolivar_"/>
+    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Bolivar"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Sanchez"/>
     <ns0:hasPartidoPolitico rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/SANRIB_CORPORATIOPN"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$70,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/SANRIB_CORPORATIOPN"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V11">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Tommy_Topic">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V11"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Tommy_Topic"/>
+    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Tommy"/>
+    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Topic"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/TELCONET"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$500,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/TELCONET"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V12">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V12"/>
-    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
-    <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/GROUP_BLUE"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$20,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/GROUP_BLUE"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/NA"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V13">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Rafael_Cordova">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V13"/>
-    <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Rafeal_Cordova"/>
+    <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Rafael_Cordova"/>
+    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Rafael"/>
+    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Cordova"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/METCO"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/METCO"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V14">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Cai_Runguo">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V14"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Cai_Runguo"/>
+    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Cai"/>
+    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Runguo"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/CAI_RUNGUI_;SINOHYDRO"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/China"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$400,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/China"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/CAI_RUNGUI_;SINOHYDRO"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/JOrge_Glass"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V15">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V15"/>
-    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
-    <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/OSIER_S.A"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/OSIER_S.A"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/JOrge_Glass"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V16">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Teodoro_Calle">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V16"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Teodoro_Calle"/>
+    <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Teodoro"/>
+    <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Calle"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/TECNICA_GENERAL_DE_CONSTRUCCION_S.A"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$30,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/TECNICA_GENERAL_DE_CONSTRUCCION_S.A"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Maria_Duarte"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V17">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V17"/>
-    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
-    <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/CONSERMIN"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$200,000"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/CONSERMIN"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Maria_Duarte"/>
-  </rdf:Description>
-
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/V18">
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Francisco_Suarez">
     <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V18"/>
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Francisco_Suarez"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Fracisco"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Suarez"/>
     <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio"/>
+    <ns0:hasPersonasDenunciaPor rdf:resource="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-    <ns0:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/FRANCISCO_SUAREZ"/>
-    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
-    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/FRANCISCO_SUAREZ"/>
-    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/NA"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/P1">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/P1"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Fernando_Villavicencio">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/P1">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Fernando_Villavicencio"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Fernando"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Villavicencio"/>
     <ns1:hasNombreProfesion rdf:resource="http://data.utpl.edu.ec/casoav/schema/Periodista"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/P2">
-    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/P2"/>
+  <foaf:Person rdf:about="http://data.utpl.edu.ec/casoav/resources/Christian_Zurita">
+    <ns0:hasCodigo>
+      <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/P2">
+      </ns0:CodigoCV>
+    </ns0:hasCodigo>
+
     <ns1:hasNombreCompletoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Christian_Zurita"/>
     <ns1:hasNombrePersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Christian"/>
     <ns1:hashasApellidoPersona rdf:resource="http://data.utpl.edu.ec/casoav/schema/Zurita"/>
     <ns1:hasNombreProfesion rdf:resource="http://data.utpl.edu.ec/casoav/schema/Periodista"/>
     <ns0:hasImplicadoJuicio rdf:resource="http://data.utpl.edu.ec/casoav/resources/ImplicadoJuicio"/>
-  </rdf:Description>
+  </foaf:Person>
 
   <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/Guayaquil">
-    <ns0:hasNombreProvincia rdf:resource="http://data.utpl.edu.ec/casoav/resources/Guayas"/>
     <ns0:hasNombreCanton rdf:resource="http://data.utpl.edu.ec/casoav/resources/Guayaquil"/>
+    <ns0:hasNombreCiudad rdf:resource="http://data.utpl.edu.ec/casoav/resources/Guayaquil"/>
   </rdf:Description>
 
   <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/Quito">
-    <ns0:hasNombreProvincia rdf:resource="http://data.utpl.edu.ec/casoav/resources/Pichincha"/>
     <ns0:hasNombreCanton rdf:resource="http://data.utpl.edu.ec/casoav/resources/Quito"/>
+    <ns0:hasNombreCiudad rdf:resource="http://data.utpl.edu.ec/casoav/resources/Quito"/>
   </rdf:Description>
 
-  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/">
-    <ns0:hasNombreCanton rdf:resource="http://data.utpl.edu.ec/casoav/resources/Guayaquil"/>
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/Guayas">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/City"/>
   </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/Pichincha">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/City"/>
+  </rdf:Description>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V1">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V2">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V3">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V4">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V5">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V6">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V7">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Brasil"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V8">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Korea"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V9">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V10">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V11">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V12">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V13">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V14">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/China"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V15">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V16">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V17">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
+
+  <ns0:CodigoCV rdf:about="http://data.utpl.edu.ec/casoav/resources/V18">
+    <ns0:hasPaisEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+  </ns0:CodigoCV>
 
   <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/AP">
     <ns0:hasCodigoPP rdf:resource="http://data.utpl.edu.ec/casoav/resources/AP"/>
@@ -467,6 +536,181 @@
     <ns0:hasTipoFormaRecibida rdf:resource="http://data.utpl.edu.ec/casoav/resources/Efectivo;_Factura"/>
     <ns1:hasMontoTotalContribucion rdf:resource="http://data.utpl.edu.ec/casoav/schema/$11,600,000"/>
     <ns0:hasPidio rdf:resource="http://data.utpl.edu.ec/casoav/resources/Hidalgo_&amp;_Hidalgo"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/HIDALGO_&amp;_HIDALGO">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V1"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/HIDALGO_&amp;_HIDALGO"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$2,000,000,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/María_Duarte"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Walter_Solís"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/FOPECA">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V2"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/FOPECA"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$240,000,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Walter_Solis"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/MIDISA_S.A">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V3"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/MIDISA_S.A"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$980,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Maria_Duarte"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/EDGAR_SALAS">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V4"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/EDGAR_SALAS"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$300,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Maria_Duarte"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/PEDRO_VERDUGA_CONSTRUCCIONES_S.A._PREVERCONSA">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V5"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/PEDRO_VERDUGA_CONSTRUCCIONES_S.A._PREVERCONSA"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$100,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Walter_Solís"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/CONSTRUDIPRO">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V6"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/CONSTRUDIPRO"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$349,879,040"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Walter_Solís"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/ODEBRECHT">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V7"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/ODEBRECHT"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$1,350,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Brasil"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/SK_ENGGEENERING">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V8"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/SK_ENGGEENERING"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$1,500,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Korea"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/CWNE(Jose_Alvear)">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V9"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/CWNE(Jose_Alvear)"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/SANRIB_CORPORATIOPN">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V10"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/SANRIB_CORPORATIOPN"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$70,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/TELCONET">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V11"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/TELCONET"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$500,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/GROUP_BLUE">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V12"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/GROUP_BLUE"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$20,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/METCO">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V13"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/METCO"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/CAI_RUNGUI_;SINOHYDRO">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V14"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/CAI_RUNGUI_;SINOHYDRO"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$400,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/China"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/OSIER_S.A">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V15"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/OSIER_S.A"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Jorge_Glass"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/TECNICA_GENERAL_DE_CONSTRUCCION_S.A">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V16"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/TECNICA_GENERAL_DE_CONSTRUCCION_S.A"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$30,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Maria_Duarte"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/CONSERMIN">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V17"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/CONSERMIN"/>
+    <ns1:hasAporteEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/schema/$200,000"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
+    <ns0:hasNombrePersonaGestionada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Maria_Duarte"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="http://data.utpl.edu.ec/casoav/resources/FRANCISCO_SUAREZ">
+    <rdf:type rdf:resource="http://dbpedia.org/ontology/Company"/>
+    <ns0:hasCodigo rdf:resource="http://data.utpl.edu.ec/casoav/resources/V18"/>
+    <ns1:hasNombreEmpresa rdf:resource="http://data.utpl.edu.ec/casoav/resources/FRANCISCO_SUAREZ"/>
+    <ns0:hasPaisVinculado rdf:resource="http://data.utpl.edu.ec/casoav/resources/Ecuador"/>
+    <ns0:hasEmpresaVinculada rdf:resource="http://data.utpl.edu.ec/casoav/resources/Vinculada"/>
   </rdf:Description>
 
 </rdf:RDF>
